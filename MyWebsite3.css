@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
-
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
 .jumbotron.bg-cover {
         /*background-image: url("dreamBalloon.jpg");*/
         background-color: #009999;
@@ -12,7 +16,7 @@
   		height: 100vh;
   		color:white;
   		margin-top: 0px;
-  		width: 100%
+  		width: 100wh
     }
 
  ./*jumbotronText {
@@ -22,7 +26,17 @@
 /*.jumbotron {
 	height:100vh;
 }*/
-
+body{
+	margin-right:-200px;
+	padding:0;
+	box-sizing: border-box;
+	border:none;
+	overflow-x: hidden;
+}
+#main{
+	width:100%;
+	margin:0;
+}
 .jumbotron.bg-cover h1{
 	/*position: relative;
 	left: 350px;*/
@@ -34,10 +48,11 @@
 	position: fixed;
 }*/
 
-/*#navMaster{
-	position: fixed;
+#navMaster{
+	/*position: fixed;*/
 	width: 100%;
-}*/
+	margin:0;
+}
 
 #logo{
 	font-family: "Cookie";
@@ -158,6 +173,7 @@
 	/*opacity: 0.6;*/
 	height: 600px;
 	width: 100%;
+	margin:0;
 }
 
 #statement-welcome-block {
@@ -188,9 +204,11 @@
 }
 
 #aboutMe {
-	height: 300px;
+	height: 80vh;
 	width: 100%;
-	background-color: #e6ccff;
+	/*background-color: #e6ccff;*/
+	/*background-color: rgba(125, 130, 253, 0.61);*/
+	background-image: linear-gradient(to right, rgba(125, 130, 253, 0.61) , rgba(109, 122, 249, 1.0));
 }
 
 
@@ -207,8 +225,55 @@
 
 }
 
+#profile-div {
+	height: auto;
+	width: 250px;
+	/*position: relative;
+	top: 50px;
+	left: 50px;
+	display:inline-block;*/
+	/*margin-bottom: 100px*/
+	margin-left:100px;
+	margin-top:50px;
+}
+
+#profile-image {
+	max-width: 100%;
+	border-radius: 200px;
+}
+
+#bio{
+	display:flex;
+}
+
+#about-me-text {
+	/*float: right;*/
+	/*display:inline-block;*/
+	width:300px;
+	height: auto;
+	/*background-color: rgba(125, 130, 253, 0.73);*/
+	/*position: relative;
+	left: 300px;
+	top:50px;*/
+	margin-left:100px;
+	border-radius: 10px;
+}
+
+#about-me-bio {
+	padding: 20px;
+	font-family: "Roboto Mono";
+	font-weight: 500;
+}
+
+#podcast-bio {
+	background-color: rgba(125, 130, 253, 1.0);
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-right: 5px;
+}
+
 #projects {
-	height: 1000px;
+	height: 100%;
 	width: 100%;
 	background-color: rgba(125, 130, 253, 0.5);
 }
@@ -248,9 +313,11 @@
 
 #game-fluid {
 	/*background-color: rgba(255, 0, 0, 1.0);*/
-	width: 250px;
+	width: 100%;
 	height: 100%;
 	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .game-container {
@@ -258,7 +325,10 @@
   top: 20px;
   left: 20px;
   width: 200px;
+  /*margin: 50px 100px;*/
+  margin: 5px 100px 100px 100px;
 }
+
 
 .image {
   display: block;
@@ -268,7 +338,19 @@
   /*border-radius: 15px;*/
 }
 
-#game-description-div {
+
+#API-game-image-container {
+	height: 334px;
+	width: 240px;
+}
+
+
+#API-game {
+	width: 100%;
+	height: 100%;
+}
+
+.game-description-div {
 	margin-top: 10px;
 	width: 225px;
 	height: 80px;
@@ -278,7 +360,23 @@
 	/*border: solid black 2px;*/
 }
 
-#game-description-text {
+#API-game-description-div {
+	height: 120px;
+	width: 245px;
+}
+
+#Care-game-description-div {
+	height: 118px;
+	width: 225px;
+}
+
+#Music-game-description-div {
+	height: 118px;
+	width: 225px;
+}
+
+
+.game-description-text {
 	font-family: "Roboto Mono";
 	color: white;
 	text-align: center;
@@ -303,7 +401,10 @@
 }
 
 .text {
-  white-space: nowrap; 
+  text-align: center;
+  padding: 10px;
+  word-wrap: break-word;
+  /*white-space: nowrap;*/ 
   color: white;
   font-size: 20px;
   font-family: "Roboto Mono";
