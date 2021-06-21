@@ -416,6 +416,28 @@ body{
   -ms-transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 600px) {
+	body{
+		font-size: 16px !important;
+		background-color: red;
+	}
+
+	#bio{
+	display:flex;
+	flex-direction: column;
+
+}
+#aboutMe {
+	height: auto;
+	width: 100%;
+	/*background-color: #e6ccff;*/
+	/*background-color: rgba(125, 130, 253, 0.61);*/
+	background-image: linear-gradient(to right, rgba(125, 130, 253, 0.61) , rgba(109, 122, 249, 1.0));
+}
+
+    
+}
+}
 
 
 
