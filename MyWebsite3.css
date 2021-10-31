@@ -344,6 +344,10 @@ body{
 	width: 240px;
 }
 
+#Trash-buddy-image-container {
+	height: 334px;
+	width: 240px;
+}
 
 #API-game {
 	width: 100%;
@@ -375,12 +379,24 @@ body{
 	width: 225px;
 }
 
+#Trash-buddy-description-div {
+	height: 180px;
+	width: 240px;
+}
 
 .game-description-text {
 	font-family: "Roboto Mono";
 	color: white;
 	text-align: center;
 	padding: 10px;
+}
+
+#link-text {
+	font-family: "Roboto Mono";
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
 }
 
 .overlay {
