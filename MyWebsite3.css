@@ -54,12 +54,13 @@ body{
 	margin:0;
 }
 
-#logo{
-	font-family: "Cookie";
-	font-size: 20px;
-	letter-spacing: 3px;
-	color: white;
-	font-weight: 600 
+#logo {
+  /* font-family: "Cookie"; */
+  font-family: "Roboto Mono";
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li{
@@ -70,16 +71,19 @@ body{
 	margin-bottom: 0px;
 }
 
-.navbar-default .nav.navbar-nav>li>a {
-    font-family: "Roboto Mono";
-    font-weight: 600;
-	/*color: #F72585;*/
-	color: #B5179E;
+.navbar-default .nav.navbar-nav > li > a {
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 40px;
+  /*color: #F72585;*/
+  /* color: #b5179e; */
+  color: #f72585;
 }
 
-.navbar-default .nav.navbar-nav>li>a:hover {
-    color: #F72585;
-	/*color: #B5179E;*/
+.navbar-default .nav.navbar-nav > li > a:hover {
+  color: #ffa9cf;
+  /*color: #B5179E;*/
 }
 
 .navbar-default .nav.navbar-nav .activeLink{
@@ -92,30 +96,32 @@ body{
 }*/
 
 
-.navbar.navbar-default{
-	    /*border-color: #D2F2FB;
+.navbar.navbar-default {
+  /*border-color: #D2F2FB;
 	    border-top-color: #D2F2FB;
-*/	    border-bottom: 1px solid black;
-	    /*background-color: #D2F2FB;*/
-	    background-color: black;
-	    /*opacity: 0.8;*/
+*/
+  border-bottom: 1px solid black;
+  /*background-color: #D2F2FB;*/
+  background-color: #1D3461;
+  /*opacity: 0.8;*/
 }
 
-.mediaIcons{
-	display: inline-block;
-	border-radius: 50%;
-	background-color: #B5179E;
-	width: 30px;
-	height: 30px;
-	margin-top: 10px;
-	margin-right: 15px;
-	text-align: center;
-	color: white;
-	padding-top: 5px;
+.mediaIcons {
+  display: inline-block;
+  border-radius: 50%;
+  /* background-color: #b5179e; */
+  background-color: #f72585;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
 }
 
 .mediaIcons:hover{
-	opacity: 0.7;
+	opacity: 0.9;
 }
 
 .carousel-inner{
@@ -166,63 +172,80 @@ body{
 
 
 #statement-welcome {
-	background-image: url("Images_for_Portfolio/techno.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: left 100% bottom 50%;
-	/*opacity: 0.6;*/
-	height: 600px;
-	width: 100%;
-	margin:0;
+  /* background-image: url("Images_for_Portfolio/techno.jpg"); */
+  /* background-color: rgb(248, 143, 174); */
+  background-image: url("Images_for_Portfolio/img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 100% bottom 50%;
+  /*opacity: 0.6;*/
+  height: 600px;
+  width: 100%;
+  margin: 0;
 }
 
 #statement-welcome-block {
-	height: 100%;
-	width: 30%;
-	/*background-color: #7d82fd;*/
-	background-color: rgba(125, 130, 253, 0.6);
-	/*#95a2fe*/
-	/*opacity: 1.0;*/
+  height: 100%;
+  width: 30%;
+  /* background-color: #cd2f8e; */
+  background-image: linear-gradient(
+    rgba(205, 47, 142, 1),
+    rgba(109, 122, 249, 1)
+  );
+  /* background-color: rgba(125, 130, 253, 0.6); */
+  /* background-color: rgba(183, 79, 111, 1); */
+  /*#95a2fe*/
+  /*opacity: 1.0;*/
 }
 
 #statement-welcome-text {
-	color: black;
-	padding: 25px;
-	padding-top: 50px;
-	/*border-bottom: 5px solid white;*/
-	border-bottom: 5px solid rgba(255, 255, 255, 0.6);
-	font-family: "Roboto Mono";
-	font-weight: 900;
-	letter-spacing: 2px;
+  color: black;
+  padding: 25px;
+  padding-top: 50px;
+  /*border-bottom: 5px solid white;*/
+  /* border-bottom: 5px solid rgba(255, 255, 255, 0.6); */
+  border-bottom: 5px solid #1D3461;
+  font-family: "Roboto Mono";
+  font-weight: 2000;
+  letter-spacing: 2px;
 }
 
 #statement-welcome-paragraph {
-	font-weight: 700;
-	font-size: 25px;
-	color: black;
-	padding-left: 30px;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  padding-left: 30px;
 }
 
 #aboutMe {
-	height: 80vh;
-	width: 100%;
-	/*background-color: #e6ccff;*/
-	/*background-color: rgba(125, 130, 253, 0.61);*/
-	background-image: linear-gradient(to right, rgba(125, 130, 253, 0.61) , rgba(109, 122, 249, 1.0));
+  height: 80vh;
+  width: 100%;
+  /* border-top: 5px solid #1D3461; */
+  background-color: rgb(146, 156, 245);
+  /*background-color: rgba(125, 130, 253, 0.61);*/
+  /* background-image: linear-gradient(
+    to right,
+    rgba(125, 130, 253, 0.61),
+    rgba(109, 122, 249, 1)
+  ); */
+  /* background-image: linear-gradient(
+    rgba(109, 122, 249, 1),
+    rgba(205, 47, 142, 1)
+    
+  ); */
 }
 
 
 #aboutMe h1 {
-	font-family: "Roboto Mono";
-    font-weight: 600;
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-left: 30px;
-	/*padding-top: 30px;*/
-	/*opacity: 0.7;*/
-	/*position:relative;*/
-	/*top:0px;*/
-
+  font-family: "Roboto Mono";
+  font-weight: 600;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 30px;
+  /*padding-top: 30px;*/
+  /*opacity: 0.7;*/
+  /*position:relative;*/
+  /*top:0px;*/
 }
 
 #profile-div {
@@ -273,9 +296,10 @@ body{
 }
 
 #projects {
-	height: 100%;
-	width: 100%;
-	background-color: rgba(125, 130, 253, 0.5);
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(125, 130, 253, 0.5); */
+  background-color: rgb(161, 169, 246);
 }
 
 #projects h1{
@@ -382,6 +406,11 @@ body{
 #Trash-buddy-description-div {
 	height: 180px;
 	width: 240px;
+}
+
+#indianaHax-game-description-div {
+  height: 220px;
+  width: 230px;
 }
 
 .game-description-text {
