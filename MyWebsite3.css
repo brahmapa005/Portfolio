@@ -185,6 +185,7 @@ body{
 }
 
 #statement-welcome-block {
+  /* display: flex; */
   height: 100%;
   width: 30%;
   /* background-color: #cd2f8e; */
@@ -250,6 +251,7 @@ body{
 
 #profile-div {
 	height: auto;
+	/* height: 250px; */
 	width: 250px;
 	/*position: relative;
 	top: 50px;
@@ -258,6 +260,7 @@ body{
 	/*margin-bottom: 100px*/
 	margin-left:100px;
 	margin-top:50px;
+	display: flex;
 }
 
 #profile-image {
