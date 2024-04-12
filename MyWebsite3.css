@@ -222,8 +222,12 @@ body{
 }
 
 #aboutMe {
-  height: 80vh;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+  /* height: 80vh;
+  width: 100%; */
   /* border-top: 5px solid #1D3461; */
   background-color: rgb(146, 156, 245);
   /*background-color: rgba(125, 130, 253, 0.61);*/
@@ -239,13 +243,12 @@ body{
   ); */
 }
 
-
-#aboutMe h1 {
+.about-me-header {
   font-family: "Roboto Mono";
   font-weight: 600;
-  margin-top: 0px;
+  /* margin-top: 0px;
   padding-top: 20px;
-  padding-left: 30px;
+  padding-left: 30px; */
   /*padding-top: 30px;*/
   /*opacity: 0.7;*/
   /*position:relative;*/
@@ -253,39 +256,50 @@ body{
 }
 
 #profile-div {
-	height: auto;
+	/* height: auto; */
 	/* height: 250px; */
-	width: 250px;
+	/* width: 250px; */
 	/*position: relative;
 	top: 50px;
 	left: 50px;
 	display:inline-block;*/
 	/*margin-bottom: 100px*/
-	margin-left:100px;
-	margin-top:50px;
+	/* margin-left:100px;
+	margin-top:50px; */
+	/* display: flex; */
+	/* max-width: 100%; */
 	display: flex;
+	margin-bottom: 20px;
+	
 }
 
 #profile-image {
-	max-width: 100%;
+	/* max-width: 100%;
+	border-radius: 200px; */
+	/* max-width: 400px; */
+	max-width: 300px;
+	max-height: 300px;
 	border-radius: 200px;
 }
 
 #bio{
 	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 #about-me-text {
 	/*float: right;*/
 	/*display:inline-block;*/
-	width:300px;
-	height: auto;
+	/* width:300px;
+	height: auto; */
 	/*background-color: rgba(125, 130, 253, 0.73);*/
 	/*position: relative;
 	left: 300px;
 	top:50px;*/
-	margin-left:100px;
-	border-radius: 10px;
+	/* margin-left:100px;
+	border-radius: 10px; */
+	font-size: large;
 }
 
 #about-me-bio {
