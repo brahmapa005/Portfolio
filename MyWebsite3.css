@@ -185,7 +185,8 @@ body{
 }
 
 #statement-welcome-block {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 30%;
   /* background-color: #cd2f8e; */
