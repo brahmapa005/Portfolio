@@ -187,6 +187,7 @@ body{
 #statement-welcome-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 30%;
   /* background-color: #cd2f8e; */
@@ -199,6 +200,7 @@ body{
   /*#95a2fe*/
   /*opacity: 1.0;*/
 }
+
 
 #statement-welcome-text {
   color: black;
