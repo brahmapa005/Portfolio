@@ -227,6 +227,7 @@ body{
   justify-content: center;
   flex-direction: column;
   padding-left: 100px;
+  padding-right: 100px;
   /* height: 80vh;
   width: 100%; */
   /* border-top: 5px solid #1D3461; */
@@ -283,10 +284,22 @@ body{
 	border-radius: 200px;
 }
 
+#resume-image {
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.resume-text{
+	text-align: center;
+	font-family: "Roboto Mono";
+}
+
 #bio{
 	display:flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
+	justify-content: space-evenly;
+	gap: 45px;
 }
 
 #about-me-text {
@@ -307,6 +320,7 @@ body{
 	padding: 20px;
 	font-family: "Roboto Mono";
 	font-weight: 500;
+	text-align: center;
 }
 
 #podcast-bio {
